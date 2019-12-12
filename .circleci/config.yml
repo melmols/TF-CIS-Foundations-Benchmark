@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: vlecerf/checkmarx-cli-docker
+    steps:
+      - checkout
+      - run: pwd
+      - run: ls -lrt
+      - run: /opt/CxConsolePlugin/runCxConsole.sh Scan -verbose -CxServer cxprivatecloud.checkmarx.net -Projectname "CxServer\SP\EMEA\deliveroo.co.uk-538\yourprojectname" -cxToken token-LocationType folder -LocationPath $(pwd)
