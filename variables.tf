@@ -25,7 +25,7 @@ default = ""
 #cis-benchmark & main
 variable "NotificationEmailAddressForCloudWatchAlarms" {
 
-default = "melaniemolina97@gmail.com"
+default = ""
 
 }
 
