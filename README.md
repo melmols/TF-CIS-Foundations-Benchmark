@@ -1,6 +1,6 @@
 # TF CIS Benchmark Quickstart
 
-### Check out the [project article](https://deliveroo.engineering/2020/01/02/CloudFormation-To-Terraform.html) 
+- for more info: check out the [project article](https://deliveroo.engineering/2020/01/02/CloudFormation-To-Terraform.html) 
 
 ## It manages the following stack:
 
